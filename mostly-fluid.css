@@ -45,35 +45,35 @@ aside + aside {
 	main {
   display: flex;
   flex-wrap: wrap;
-	order: 1;
+  width: 50%;
 }
 	aside {
   display: flex;
   flex-wrap: wrap;
-	order: 2;
+  width: 50%;
 }
 }
 @media screen and (min-width: 1024px) {
 	main {
   display: flex;
   flex-wrap: wrap;
-	order: 1;
+  width: 50%;
 }
 	aside {
   display: flex;
   flex-wrap: wrap;
-	order: 2;
+  width: 50%
 }
 }
 @media screen and (min-width: 1200px) {
 	main {
   display: flex;
   flex-wrap: wrap;
-	order: 1;
+  width: 50%;
 }
 	aside {
   display: flex;
   flex-wrap: wrap;
-	order: 2;
+  width: 50%;
 }
 }
