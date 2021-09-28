@@ -42,38 +42,18 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-	main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
+	wrapper {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
 	aside {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
+		width: 50%;
+	}
 }
 @media screen and (min-width: 1024px) {
-	main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
-	aside {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%
-}
+  /* Add Laptop Content Here */
 }
 @media screen and (min-width: 1200px) {
-	main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
-	aside {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
-}
+  /* Add Desktop Content Here */
+	}
