@@ -42,25 +42,32 @@ aside + aside {
 }
 
 @media screen and (min-width: 768px) {
-    /* Add Tablet Content Here */
-}
-
-@media screen and (min-width: 1024px) {
 	.wrapper {
-		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
+		flex-direction: row;
 	}
 	
 	aside {
-		max-width: 25%;
+		width: 25%;
+		align: left;
+		order: 1;
+	}
+	
+	aside + aside {
+		width: 100%;
+		order: 3;
 	}
 	main {
 		position: relative;
-		left: 25rem;
-		max-width: 75%;
+		align: right;
+		width: 75%;
+		order: 2;
 	}
 }
 
+@media screen and (min-width: 1024px) {
+/* Add laptop content here */
+}
 @media screen and (min-width: 1200px) {
     /* Add Desktop Content Here */
 }
